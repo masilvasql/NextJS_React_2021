@@ -69,7 +69,7 @@ class Home extends Component {
         }
 
         {
-          filteredPosts.length == 0 && <h1>No Posts</h1>  
+          filteredPosts.length === 0 && <h1>No Posts</h1>  
         }
         
         <div className='button-container'>
